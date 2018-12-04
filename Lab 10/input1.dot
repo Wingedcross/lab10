@@ -1,0 +1,33 @@
+digraph G {
+// nodes
+Micky_Mouse [color = pink, style = filled, label="key=Micky_Mouse, 0"];
+Parah_Salin [color = pink, style = filled, label="key=Parah_Salin, 3"];
+Joe_the_Plumber [color = pink, style = filled, label="key=Joe_the_Plumber, 2"];
+Wille_E_Coyote [color = pink, style = filled, label="key=Wille_E_Coyote, 1"];
+Tilla_Tequila [color = pink, style = filled, label="key=Tilla_Tequila, 3"];
+Kim_Jong_Il [color = pink, style = filled, label="key=Kim_Jong_Il, 4"];
+Scoobie_Doo [color = pink, style = filled, label="key=Scoobie_Doo, 1"];
+Hugo_Chavez [color = pink, style = filled, label="key=Hugo_Chavez, 4"];
+// edges
+Micky_Mouse -> 3;
+Micky_Mouse -> 6;
+Parah_Salin -> 2;
+Parah_Salin -> 0;
+Parah_Salin -> 5;
+Parah_Salin -> 7;
+Joe_the_Plumber -> 1;
+Joe_the_Plumber -> 3;
+Joe_the_Plumber -> 4;
+Wille_E_Coyote -> 0;
+Wille_E_Coyote -> 2;
+Tilla_Tequila -> 1;
+Tilla_Tequila -> 2;
+Tilla_Tequila -> 6;
+Kim_Jong_Il -> 0;
+Kim_Jong_Il -> 4;
+Kim_Jong_Il -> 2;
+Scoobie_Doo -> 3;
+Hugo_Chavez -> 1;
+Hugo_Chavez -> 0;
+Hugo_Chavez -> 6;
+}
